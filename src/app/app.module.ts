@@ -10,6 +10,7 @@ import { MessagesComponent } from './messages/messages.component';
 
 import { HeroService } from './hero.service';
 import { MessageService } from './message.service';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 
@@ -18,7 +19,8 @@ import { MessageService } from './message.service';
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule, FormsModule, AppRoutingModule
